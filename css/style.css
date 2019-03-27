@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+body {
+  background-color: #d3e3ed;
+  color: #141648;
+  line-height: 1.5;
+  font-size: 16px;
+  /* To add a comment cmd + / */
+  /* set column lenth */
+  width: 1100px;
+  margin: 0 auto 0 auto;
+  /* The magrin property creates space around the outside of elements. It takes 4 values top, right, bottom and left. 0 auto sets the top & bottom to 0 margin, and the left and rightto automatically resize the margins to put content in the middle */
+  font-family: "Georgia", "Times New Roman", sans-serif;
+}
+
+header {
+  text-align: center;
+  margin: 60px 0;
+}
+
+nav {
+  margin: 60px 0 0 0;
+}
+
+/* Apply styles to links (A Tags) inside the nav */
+nav a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #141648;
+  /* Remove underline from links */
+  text-decoration: none;
+  /* set uppercase (cap letters) */
+  text-transform: uppercase;
+  padding: 0 40px 0 40px
+}
+
+nav a:hover {
+  color: #fac600;
+}
+
+/* Make the background of our sections white and add a bottom margin of 40px */
+section {
+  background-color: white;
+  margin: 0 0 40px 0;
+}
+
+h2 {
+  font-size: 16px;
+  /* font 16px */
+  font-weight: 400;
+  /*  */
+  margin-bottom: 0;
+  /*  */
+  text-align: center;
+  /* Aut the text in the middle */
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  /* Ahange the font to Montserrat */
+  font-weight: 700;
+  /* font to 700 */
+  font-size: 24px;
+  /*  */
+  text-transform: uppercase;
+  /* Aapitalise the font */
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+/* This changes the content in post content only */
+div.post-content {
+  padding: 35px 240px;
+}
+
+/* Ahis applies anchor tags inside div elements with a class of post-content */
+div.post-contact a {
+  color: #141618
+}
+
+/* Apply color a yellow hover state to only the read more */
+div.post-content a:hover {
+  color: #fac600
+}
+
+div.post-details {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  color: #ADADAD;
+  /* Add a line above the post details */
+  border-top: 2px solid #ADADAD;
+}
+
+footer {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font: #7e8081
+}
+
+footer a {
+  padding: 0 16px;
+  text-decoration: none;
+}
+
+/* Contact Page Styles */
+form div {
+  margin-bottom: 20;
+}
+
+label {
+  /* Make the tables all sit on top of the form fields */
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #B2B2B2;
+}
+
+input[type="email"], input[type="text"], textarea {
+  width: 100%;
+  border: 1px solid #B2B2B2;
+  border-radius: 4px;
+  padding: 10px;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 18px;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+input[type="submit"] {
+  background-color: #fac600;
+  padding: 10px 30px;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  cursor: pointer;
+}
